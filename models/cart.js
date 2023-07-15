@@ -19,17 +19,17 @@ class Cart {
         }
 
         if (data.account_id) {
-            sql.query += ` AND account_id = ?`;
+            sql.query += ` AND crt.account_id = ?`;
             sql.params.push(data.account_id);
         }
 
         if (data.product_id) {
-            sql.query += ` AND product_id = ?`;
+            sql.query += ` AND crt.product_id = ?`;
             sql.params.push(data.product_id);
         }
 
         if (data.id) {
-            sql.query += ` AND cart_id = ?`;
+            sql.query += ` AND crt.cart_id = ?`;
             sql.params.push(data.id);
         }
 
