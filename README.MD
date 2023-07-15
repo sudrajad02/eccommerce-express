@@ -9,6 +9,7 @@ $ npm install
 
 # setting env
 $ edit env.example
+$ edit adjust like your locale
 $ change name .env
 
 # running app
